@@ -110,11 +110,10 @@ const HomePage: React.FC = () => {
         <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 md:pt-28 lg:pt-32 pb-8 sm:pb-12 lg:pb-16 flex items-center min-h-[calc(100vh-120px)] lg:min-h-[calc(100vh-80px)]">
           <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-12 lg:gap-16 w-full lg:pr-[45%]">
             {/* Left content */}
-            <MotionWrapper variant="fadeInLeft" className="w-full lg:w-[100%] flex flex-col items-start gap-4 text-left">
+            <MotionWrapper variant="fadeInLeft" className="w-full lg:w-[100%] flex flex-col items-center lg:items-start gap-4 text-center lg:text-left">
               <MotionWrapper variant="fadeInUp">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold text-gray-800 leading-tight mb-4 sm:mb-6">
-                  Co to jest <br className="hidden sm:block" />
-                  <span className="sm:hidden">Co to jest </span>Urokinetic?
+                  Co to jest <br className="hidden sm:block" />Urokinetic?
                 </h1>
               </MotionWrapper>
 
@@ -144,7 +143,7 @@ const HomePage: React.FC = () => {
             </MotionWrapper>
 
             {/* Right content - Girl image in modern container */}
-            <MotionWrapper variant="fadeInRight" className="w-full max-w-md sm:max-w-lg lg:max-w-none lg:w-[45%] flex justify-center items-end lg:absolute lg:right-8 lg:bottom-0 lg:h-full mt-8 lg:mt-0">
+            <MotionWrapper variant="fadeInRight" className="hidden lg:flex w-full max-w-md sm:max-w-lg lg:max-w-none lg:w-[45%] justify-center items-end lg:absolute lg:right-8 lg:bottom-0 lg:h-full mt-8 lg:mt-0">
               <div className="relative">
                 {/* Floating decorative elements around girl */}
                 <div className="absolute inset-0 -inset-x-4 sm:-inset-x-6 lg:-inset-x-8 -inset-y-8 sm:-inset-y-10 lg:-inset-y-12">
