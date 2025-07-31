@@ -103,7 +103,7 @@ const PricingPage: React.FC = () => {
 
                 <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <MotionWrapper variant="fadeInUp">
-                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-global-2 mb-6">
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6" style={{ color: '#334155' }}>
                             Cennik produktów Urokinetic
                         </h1>
                     </MotionWrapper>
@@ -191,10 +191,10 @@ const PricingPage: React.FC = () => {
                                     )}
 
                                     <div className="text-center mb-6">
-                                        <h3 className="text-xl font-bold text-global-2 mb-2">{product.name}</h3>
+                                        <h3 className="text-xl font-bold mb-2" style={{ color: '#334155' }}>{product.name}</h3>
                                         <p className="text-global-3 text-sm mb-4">{product.description}</p>
                                         <div className="flex items-baseline justify-center gap-1">
-                                            <span className="text-3xl font-bold text-global-2">{product.price}</span>
+                                            <span className="text-3xl font-bold" style={{ color: '#334155' }}>{product.price}</span>
                                             <span className="text-sm text-global-3">PLN</span>
                                         </div>
                                     </div>
@@ -244,7 +244,7 @@ const PricingPage: React.FC = () => {
 
                 <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <MotionWrapper variant="fadeInUp">
-                        <h2 className="text-2xl sm:text-3xl font-bold text-global-2 mb-6">
+                        <h2 className="text-2xl sm:text-3xl font-bold mb-6" style={{ color: '#334155' }}>
                             Potrzebujesz indywidualnej wyceny?
                         </h2>
                     </MotionWrapper>

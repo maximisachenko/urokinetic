@@ -68,7 +68,7 @@ const Header: React.FC = () => {
                 className="w-6 h-6 sm:w-8 sm:h-8 transition-all duration-300"
               />
             </div>
-            <h1 className="text-lg sm:text-xl lg:text-2xl font-semibold font-poppins text-gray-900 transition-all duration-300">
+            <h1 className="text-lg sm:text-xl lg:text-2xl font-semibold font-poppins transition-all duration-300" style={{ color: '#334155' }}>
               UROKINETIC
             </h1>
           </Link>
@@ -79,21 +79,30 @@ const Header: React.FC = () => {
               {/* Regular Menu Items */}
               <Link
                 to="/o-nas"
-                className="text-base lg:text-lg font-medium text-gray-700 hover:text-gray-900 transition-all duration-300 hover:scale-105"
+                className="text-base lg:text-lg font-medium transition-all duration-300 hover:scale-105"
+                style={{ color: '#374151' }}
+                onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#334155'}
+                onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#374151'}
               >
                 O nas
               </Link>
 
               <Link
                 to="/oferta"
-                className="text-base lg:text-lg font-medium text-gray-700 hover:text-gray-900 transition-all duration-300 hover:scale-105"
+                className="text-base lg:text-lg font-medium transition-all duration-300 hover:scale-105"
+                style={{ color: '#374151' }}
+                onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#334155'}
+                onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#374151'}
               >
                 Oferta
               </Link>
 
               <Link
                 to="/ceny"
-                className="text-base lg:text-lg font-medium text-gray-700 hover:text-gray-900 transition-all duration-300 hover:scale-105"
+                className="text-base lg:text-lg font-medium transition-all duration-300 hover:scale-105"
+                style={{ color: '#374151' }}
+                onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#334155'}
+                onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#374151'}
               >
                 Cennik
               </Link>
@@ -101,7 +110,10 @@ const Header: React.FC = () => {
               {/* Submenu Item */}
               <div className="relative">
                 <button
-                  className="flex items-center gap-2 text-base lg:text-lg font-medium text-gray-700 hover:text-gray-900 transition-all duration-300 hover:scale-105"
+                  className="flex items-center gap-2 text-base lg:text-lg font-medium transition-all duration-300 hover:scale-105"
+                  style={{ color: '#374151' }}
+                  onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#334155'}
+                  onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#374151'}
                   onClick={() => setIsSubmenuOpen(!isSubmenuOpen)}
                   role="menuitem"
                   aria-haspopup="true"
@@ -120,13 +132,13 @@ const Header: React.FC = () => {
                 {isSubmenuOpen && (
                   <ul className="absolute top-full right-0 mt-3 bg-white shadow-xl rounded-2xl py-3 min-w-[220px] z-50 animate-fade-in border border-gray-100" role="menu">
                     <li role="menuitem">
-                      <a href="#" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 transition-colors text-base font-medium">Dla lekarzy</a>
+                      <Link to="/dla-lekarzy" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 transition-colors text-base font-medium">Dla lekarzy</Link>
                     </li>
                     <li role="menuitem">
-                      <a href="#" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 transition-colors text-base font-medium">Dla weterynarzy</a>
+                      <Link to="/dla-weterynarzy" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 transition-colors text-base font-medium">Dla weterynarzy</Link>
                     </li>
                     <li role="menuitem">
-                      <a href="#" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 transition-colors text-base font-medium">Szkolenia</a>
+                      <Link to="/szkolenia" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 transition-colors text-base font-medium">Szkolenia</Link>
                     </li>
                   </ul>
                 )}
@@ -233,27 +245,27 @@ const Header: React.FC = () => {
                 {/* Submenu */}
                 {isSubmenuOpen && (
                   <div className="ml-4 space-y-1">
-                    <a
-                      href="#"
+                    <Link
+                      to="/dla-lekarzy"
                       className="block px-4 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-colors"
                       onClick={closeMenu}
                     >
                       Dla lekarzy
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      to="/dla-weterynarzy"
                       className="block px-4 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-colors"
                       onClick={closeMenu}
                     >
                       Dla weterynarzy
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      to="/szkolenia"
                       className="block px-4 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-colors"
                       onClick={closeMenu}
                     >
                       Szkolenia
-                    </a>
+                    </Link>
                   </div>
                 )}
               </div>

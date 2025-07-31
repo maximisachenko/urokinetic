@@ -44,7 +44,7 @@ const ContactPage: React.FC = () => {
             <section className="w-full bg-[linear-gradient(90deg,#f9fafb_0%,_#ffffff_100%)] py-12 sm:py-16 md:py-20 lg:py-24 mt-16 sm:mt-20">
                 <div className="w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <MotionWrapper variant="fadeInUp">
-                        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-global-2 mb-4 sm:mb-6">
+                        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6" style={{ color: '#334155' }}>
                             Skontaktuj się z nami
                         </h1>
                     </MotionWrapper>
@@ -99,9 +99,9 @@ const ContactPage: React.FC = () => {
                                 >
                                     <img src="/images/img_vector.svg" alt="phone" className="w-6 h-6 sm:w-8 sm:h-8 filter brightness-0 invert transition-transform duration-300 group-hover:scale-110" />
                                 </div>
-                                <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 sm:mb-4 group-hover:text-gray-900 transition-colors duration-300">Telefon</h3>
+                                <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 transition-colors duration-300" style={{ color: '#334155' }}>Telefon</h3>
                                 <p className="text-gray-600 text-xs sm:text-sm mb-2 sm:mb-3 group-hover:text-gray-700 transition-colors duration-300">Zadzwoń do nas</p>
-                                <a href="tel:+48501717989" className="text-gray-800 text-sm sm:text-base font-medium hover:underline transition-colors">
+                                <a href="tel:+48501717989" className="text-sm sm:text-base font-medium hover:underline transition-colors" style={{ color: '#334155' }}>
                                     +48 501 717 989
                                 </a>
                             </div>
@@ -137,9 +137,9 @@ const ContactPage: React.FC = () => {
                                 >
                                     <img src="/images/img_vector.svg" alt="email" className="w-8 h-8 filter brightness-0 invert transition-transform duration-300 group-hover:scale-110" />
                                 </div>
-                                <h3 className="text-xl font-bold text-gray-800 mb-4 group-hover:text-gray-900 transition-colors duration-300">Email</h3>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>Email</h3>
                                 <p className="text-gray-600 text-sm mb-3 group-hover:text-gray-700 transition-colors duration-300">Napisz do nas</p>
-                                <a href="mailto:kontakt@urokinetic.pl" className="text-gray-800 font-medium hover:underline transition-colors">
+                                <a href="mailto:kontakt@urokinetic.pl" className="font-medium hover:underline transition-colors" style={{ color: '#334155' }}>
                                     kontakt@urokinetic.pl
                                 </a>
                             </div>
@@ -175,9 +175,9 @@ const ContactPage: React.FC = () => {
                                 >
                                     <img src="/images/img_vector.svg" alt="location" className="w-8 h-8 filter brightness-0 invert transition-transform duration-300 group-hover:scale-110" />
                                 </div>
-                                <h3 className="text-xl font-bold text-gray-800 mb-4 group-hover:text-gray-900 transition-colors duration-300">Adres</h3>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>Adres</h3>
                                 <p className="text-gray-600 text-sm mb-3 group-hover:text-gray-700 transition-colors duration-300">Odwiedź nas</p>
-                                <p className="text-gray-800 font-medium">
+                                <p className="font-medium" style={{ color: '#334155' }}>
                                     ul. Nowy Świat 57/59 lok. 12<br />
                                     00-042 Warszawa
                                 </p>
@@ -214,9 +214,9 @@ const ContactPage: React.FC = () => {
                                 >
                                     <img src="/images/img_vector.svg" alt="time" className="w-8 h-8 filter brightness-0 invert transition-transform duration-300 group-hover:scale-110" />
                                 </div>
-                                <h3 className="text-xl font-bold text-gray-800 mb-4 group-hover:text-gray-900 transition-colors duration-300">Godziny pracy</h3>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>Godziny pracy</h3>
                                 <p className="text-gray-600 text-sm mb-3 group-hover:text-gray-700 transition-colors duration-300">Jesteśmy dostępni</p>
-                                <p className="text-gray-800 font-medium">
+                                <p className="font-medium" style={{ color: '#334155' }}>
                                     Pon-Pt: 8:00-18:00<br />
                                     Sob: 9:00-14:00
                                 </p>
@@ -233,7 +233,7 @@ const ContactPage: React.FC = () => {
                         {/* Contact Form */}
                         <MotionWrapper variant="fadeInLeft" className="">
                             <MotionWrapper variant="fadeInUp">
-                                <h2 className="text-2xl sm:text-3xl font-bold text-global-2 mb-6">
+                                <h2 className="text-2xl sm:text-3xl font-bold mb-6" style={{ color: '#334155' }}>
                                     Wyślij nam wiadomość
                                 </h2>
                             </MotionWrapper>
@@ -334,7 +334,7 @@ const ContactPage: React.FC = () => {
                         <MotionWrapper variant="fadeInRight" delay={0.2} className="space-y-8">
                             <MotionWrapper variant="fadeInUp">
                                 <div className="bg-global-3 rounded-2xl p-8">
-                                    <h3 className="text-xl font-bold text-global-2 mb-6">Informacje kontaktowe</h3>
+                                    <h3 className="text-xl font-bold mb-6" style={{ color: '#334155' }}>Informacje kontaktowe</h3>
                                     <div className="space-y-4">
                                         <div className="flex items-center gap-4">
                                             <div className="w-10 h-10 bg-global-1 rounded-full flex items-center justify-center">
