@@ -314,7 +314,7 @@ const HomePage: React.FC = () => {
                 <div className="relative bg-white rounded-xl sm:rounded-2xl p-2 sm:p-3 shadow-xl sm:shadow-2xl transition-all duration-500 group-hover:shadow-3xl group-hover:-translate-y-1 sm:group-hover:-translate-y-2">
                   <div className="relative overflow-hidden rounded-lg sm:rounded-xl">
                     <img
-                      src="/images/hall.png"
+                      src="/images/hall1.png"
                       alt="Nowoczesne centrum medyczne UROKINETIC"
                       className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
                     />
