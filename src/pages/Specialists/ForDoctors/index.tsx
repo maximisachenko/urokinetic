@@ -62,7 +62,7 @@ const ForDoctorsPage: React.FC = () => {
                                         <path d="M12.5 7H11v6l5.2 3.2.8-1.3-4.5-2.7V7z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     30 minut zabiegu
                                 </h3>
                                 <p className="text-global-3 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -88,7 +88,7 @@ const ForDoctorsPage: React.FC = () => {
                                         <path d="M9 11H7v6h2v-6zm4 0h-2v6h2v-6zm4 0h-2v6h2v-6zm2.5-5H20V4h-1.5l-1-1h-5l-1 1H10V4H8.5l-1-1h-5l-1 1H2v2h1.5L5 18h14l1.5-12H22V4h-1.5z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     Kontrola USG
                                 </h3>
                                 <p className="text-global-3 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -114,7 +114,7 @@ const ForDoctorsPage: React.FC = () => {
                                         <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     Natychmiastowy efekt
                                 </h3>
                                 <p className="text-global-3 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">

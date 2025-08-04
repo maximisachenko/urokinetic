@@ -68,7 +68,7 @@ const TrainingPage: React.FC = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h3 className="text-2xl sm:text-3xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                        <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                             Szkolenie dla lekarzy
                                         </h3>
                                         <p className="text-base sm:text-lg font-medium mb-4" style={{ color: '#7db3c9' }}>
@@ -143,7 +143,7 @@ const TrainingPage: React.FC = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h3 className="text-2xl sm:text-3xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                        <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                             Szkolenie dla weterynarzy
                                         </h3>
                                         <p className="text-base sm:text-lg font-medium mb-4" style={{ color: '#6ba3b9' }}>

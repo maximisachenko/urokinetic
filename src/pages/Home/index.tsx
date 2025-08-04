@@ -350,7 +350,7 @@ const HomePage: React.FC = () => {
         <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center mb-10 sm:mb-12 lg:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4" style={{ color: '#334155' }}>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4" style={{ color: '#334155' }}>
               Usługi
             </h2>
             <p className="text-base sm:text-lg lg:text-xl text-global-4 mb-4 sm:mb-6">
@@ -411,7 +411,7 @@ const HomePage: React.FC = () => {
                     className="w-8 h-8 sm:w-10 sm:h-10 filter brightness-0 invert transition-transform duration-300 group-hover:scale-110"
                   />
                 </div>
-                <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
+                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                   Bezpieczeństwo
                 </h3>
                 <p className="text-gray-600 text-xs sm:text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -472,7 +472,7 @@ const HomePage: React.FC = () => {
                     className="w-8 h-8 sm:w-10 sm:h-10 filter brightness-0 invert transition-transform duration-300 group-hover:scale-110"
                   />
                 </div>
-                <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
+                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                   Indywidualne dopasowanie
                 </h3>
                 <p className="text-gray-600 text-xs sm:text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -644,7 +644,7 @@ const HomePage: React.FC = () => {
         <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center text-center gap-8">
             <div className="max-w-3xl">
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6" style={{ color: '#334155' }}>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6" style={{ color: '#334155' }}>
                 Dowiedz się więcej o naszych produktach
               </h2>
 
@@ -730,7 +730,7 @@ const HomePage: React.FC = () => {
         <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-2" style={{ color: '#334155' }}>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-2" style={{ color: '#334155' }}>
               Opinie naszych klientów
             </h2>
             <p className="text-lg sm:text-xl text-global-4 mb-6">

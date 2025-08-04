@@ -47,7 +47,7 @@ const AboutPage: React.FC = () => {
                 <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center">
                         <MotionWrapper variant="fadeInUp">
-                            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6" style={{ color: '#334155' }}>
+                            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6" style={{ color: '#334155' }}>
                                 O nas
                             </h1>
                         </MotionWrapper>
@@ -107,7 +107,7 @@ const AboutPage: React.FC = () => {
                 <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
                     <MotionWrapper variant="fadeInUp">
                         <div className="text-center mb-12 sm:mb-16">
-                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6" style={{ color: '#334155' }}>
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6" style={{ color: '#334155' }}>
                                 Co nas wyróżnia?
                             </h2>
                         </div>
@@ -152,7 +152,7 @@ const AboutPage: React.FC = () => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                    <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                         Technologia potwierdzona praktyką
                                     </h3>
                                     <p className="text-global-3 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -197,7 +197,7 @@ const AboutPage: React.FC = () => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                    <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                         Zabieg w 30 minut – bez cięcia, bez hospitalizacji
                                     </h3>
                                     <p className="text-global-3 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -241,7 +241,7 @@ const AboutPage: React.FC = () => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                    <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                         Projekt oparty na potrzebach pacjentek i lekarzy
                                     </h3>
                                     <p className="text-global-3 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -285,7 +285,7 @@ const AboutPage: React.FC = () => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                    <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                         Bezpieczeństwo i kontrola
                                     </h3>
                                     <p className="text-global-3 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -324,12 +324,12 @@ const AboutPage: React.FC = () => {
                 <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
                     <MotionWrapper variant="fadeInUp">
                         <div className="text-center">
-                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-8" style={{ color: '#334155' }}>
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8" style={{ color: '#334155' }}>
                                 Nasza misja
                             </h2>
                             <div className="max-w-4xl mx-auto">
                                 <p className="text-lg sm:text-xl text-global-3 leading-relaxed mb-8">
-                                    Naszym celem jest przywracanie komfortu i pewności siebie – bez ryzyka, bez hospitalizacji i bez długotrwałego leczenia farmakologicznego. Wprowadzając Urokinetic na rynek, chcemy zapewnić kobietom (i ich lekarzom) realne narzędzie w walce z krępującym i często przemilczanym problemem.
+                                    Naszym celem jest <span className="font-bold">przywracanie komfortu i pewności siebie</span> – bez ryzyka, bez hospitalizacji i bez długotrwałego leczenia farmakologicznego. Wprowadzając Urokinetic na rynek, chcemy zapewnić kobietom (i ich lekarzom) realne narzędzie w walce z krępującym i często przemilczanym problemem.
                                 </p>
                                 <Button
                                     variant="primary"
@@ -357,7 +357,7 @@ const AboutPage: React.FC = () => {
                 <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
                     <MotionWrapper variant="fadeInUp">
                         <div className="text-center mb-12 sm:mb-16">
-                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6" style={{ color: '#334155' }}>
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6" style={{ color: '#334155' }}>
                                 Liczby, które mówią za siebie
                             </h2>
                             <p className="text-lg text-global-3 max-w-2xl mx-auto">
@@ -393,7 +393,7 @@ const AboutPage: React.FC = () => {
                                         <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-lg font-bold transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     10 lat rozwoju technologii medycznych
                                 </h3>
                             </div>
@@ -415,7 +415,7 @@ const AboutPage: React.FC = () => {
                                         <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-lg font-bold transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     Certyfikacja zgodna z ISO 13485
                                 </h3>
                             </div>
@@ -437,7 +437,7 @@ const AboutPage: React.FC = () => {
                                         <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-lg font-bold transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     Tysiące udanych zabiegów
                                 </h3>
                             </div>
@@ -459,7 +459,7 @@ const AboutPage: React.FC = () => {
                                         <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-lg font-bold transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     Widoczność i kontrola implantu w USG
                                 </h3>
                             </div>
@@ -481,7 +481,7 @@ const AboutPage: React.FC = () => {
                                         <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-lg font-bold transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     Zastosowanie u pacjentek pierwotnych i po niepowodzeniach
                                 </h3>
                             </div>

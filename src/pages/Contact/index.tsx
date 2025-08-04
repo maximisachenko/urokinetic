@@ -99,7 +99,7 @@ const ContactPage: React.FC = () => {
                                 >
                                     <img src="/images/img_vector.svg" alt="phone" className="w-6 h-6 sm:w-8 sm:h-8 filter brightness-0 invert transition-transform duration-300 group-hover:scale-110" />
                                 </div>
-                                <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 transition-colors duration-300" style={{ color: '#334155' }}>Telefon</h3>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>Telefon</h3>
                                 <p className="text-gray-600 text-xs sm:text-sm mb-2 sm:mb-3 group-hover:text-gray-700 transition-colors duration-300">Zadzwoń do nas</p>
                                 <a href="tel:+48501717989" className="text-sm sm:text-base font-medium hover:underline transition-colors" style={{ color: '#334155' }}>
                                     +48 501 717 989
@@ -334,7 +334,7 @@ const ContactPage: React.FC = () => {
                         <MotionWrapper variant="fadeInRight" delay={0.2} className="space-y-8">
                             <MotionWrapper variant="fadeInUp">
                                 <div className="bg-global-3 rounded-2xl p-8">
-                                    <h3 className="text-xl font-bold mb-6" style={{ color: '#334155' }}>Informacje kontaktowe</h3>
+                                    <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>Informacje kontaktowe</h3>
                                     <div className="space-y-4">
                                         <div className="flex items-center gap-4">
                                             <div className="w-10 h-10 bg-global-1 rounded-full flex items-center justify-center">

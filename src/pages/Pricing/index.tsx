@@ -103,7 +103,7 @@ const PricingPage: React.FC = () => {
 
                 <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <MotionWrapper variant="fadeInUp">
-                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6" style={{ color: '#334155' }}>
+                        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6" style={{ color: '#334155' }}>
                             Cennik produktów Urokinetic
                         </h1>
                     </MotionWrapper>
@@ -244,7 +244,7 @@ const PricingPage: React.FC = () => {
 
                 <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <MotionWrapper variant="fadeInUp">
-                        <h2 className="text-2xl sm:text-3xl font-bold mb-6" style={{ color: '#334155' }}>
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6" style={{ color: '#334155' }}>
                             Potrzebujesz indywidualnej wyceny?
                         </h2>
                     </MotionWrapper>

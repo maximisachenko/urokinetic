@@ -61,7 +61,7 @@ const ForVeterinariansPage: React.FC = () => {
                                         <path d="M4.5 12.75c0 .414.336.75.75.75h13.5c.414 0 .75-.336.75-.75s-.336-.75-.75-.75H5.25c-.414 0-.75.336-.75.75zm0-3c0 .414.336.75.75.75h13.5c.414 0 .75-.336.75-.75s-.336-.75-.75-.75H5.25c-.414 0-.75.336-.75.75zm0-3c0 .414.336.75.75.75h13.5c.414 0 .75-.336.75-.75s-.336-.75-.75-.75H5.25c-.414 0-.75.336-.75.75z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     Psy wszystkich ras
                                 </h3>
                                 <p className="text-global-3 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -87,7 +87,7 @@ const ForVeterinariansPage: React.FC = () => {
                                         <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     Koty domowe
                                 </h3>
                                 <p className="text-global-3 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -113,7 +113,7 @@ const ForVeterinariansPage: React.FC = () => {
                                         <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     Przypadki przewlekłe
                                 </h3>
                                 <p className="text-global-3 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">

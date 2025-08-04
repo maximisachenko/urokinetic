@@ -117,7 +117,7 @@ const OfertaPage: React.FC = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h3 className="text-2xl sm:text-3xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                        <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                             UROKINETIC dla ludzi
                                         </h3>
                                         <p className="text-base sm:text-lg font-medium mb-4" style={{ color: '#7db3c9' }}>
@@ -193,7 +193,7 @@ const OfertaPage: React.FC = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h3 className="text-2xl sm:text-3xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                        <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                             UROKINETIC dla zwierząt
                                         </h3>
                                         <p className="text-base sm:text-lg font-medium mb-4" style={{ color: '#6ba3b9' }}>
@@ -286,7 +286,7 @@ const OfertaPage: React.FC = () => {
                                         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     Szkolenia specjalistyczne
                                 </h3>
                                 <p className="text-global-3 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -318,7 +318,7 @@ const OfertaPage: React.FC = () => {
                                         <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     Wsparcie techniczne
                                 </h3>
                                 <p className="text-global-3 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -350,7 +350,7 @@ const OfertaPage: React.FC = () => {
                                         <path d="M9 11H7v6h2v-6zm4 0h-2v6h2v-6zm4 0h-2v6h2v-6zm2.5-5H20V4h-1.5l-1-1h-5l-1 1H10V4H8.5L12 1 15.5 4zM6 7h12l-1 11H7L6 7z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300" style={{ color: '#334155' }}>
+                                <h3 className="text-xl font-bold mb-4 transition-colors duration-300" style={{ color: '#334155' }}>
                                     Materiały edukacyjne
                                 </h3>
                                 <p className="text-global-3 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
