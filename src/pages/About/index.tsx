@@ -53,7 +53,7 @@ const AboutPage: React.FC = () => {
                         </MotionWrapper>
 
                         <MotionWrapper variant="fadeInUp">
-                            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-8" style={{ color: '#7db3c9' }}>
+                            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-8" style={{ color: '#7db3c9' }}>
                                 Skoncentrowani na skuteczności. Oparci na doświadczeniu.
                             </h2>
                         </MotionWrapper>
@@ -66,7 +66,7 @@ const AboutPage: React.FC = () => {
                                 <p className="text-lg sm:text-xl text-global-3 leading-relaxed mb-6">
                                     Nasz zespół tworzą lekarze, inżynierowie biomedyczni i praktycy, którzy od lat pracują nad skutecznymi metodami wspierania funkcji zwieracza cewki moczowej.
                                 </p>
-                                <p className="text-lg sm:text-xl font-semibold" style={{ color: '#334155' }}>
+                                <p className="text-lg sm:text-xl font-bold" style={{ color: '#334155' }}>
                                     Wierzymy, że leczenie nie musi oznaczać operacji – dlatego stworzyliśmy rozwiązanie, które działa szybko, bezboleśnie i daje natychmiastowe rezultaty.
                                 </p>
                             </div>
